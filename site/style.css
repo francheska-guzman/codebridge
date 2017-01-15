@@ -38,9 +38,6 @@
     src: url("fonts/nittigrotesk-semilight-v20.woff") format("truetype");
 }
 
-#topnavigation {  
-}
-
 /* Add a light-blue background color. */
 ul.topnav {
     list-style-type: none;
@@ -60,23 +57,50 @@ ul.topnav li a {
     display: inline-block;
     color: #08507c; /* Blue */
     text-align: center;
-    padding: 14px 30px;
+    padding: 12px 24px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
     font-family: "SemilightFont";
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Change background color (light-blue to white) and text color (blue to orange) of links on hover. */
 ul.topnav li a:hover {
     background-color: #FFFFFF; /* White */
     color: #f68833; /* Orange */
+    border-bottom-style: solid;
+    border-bottom-color: #f68833; /* An orange line in the bottom */
+    border-bottom-width: 1px;
 }
 
 #header {
-    background-color: ;
+
 }
 
-#body {
-    background-color: ;
+h1 {
+
+}
+
+h2 {
+
+}
+
+#left {
+
+}
+
+#main {
+
+}
+
+#right {
+
+}
+
+#below {
+
+}
+
+#footer {
+
 }
