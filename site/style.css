@@ -55,7 +55,7 @@ ul.topnav li {
 /* Style the links inside the list items. */
 ul.topnav li a {
     display: inline-block;
-    color: #08507c; /* Blue */
+    color: #08507c; /* Dark Blue */
     text-align: center;
     padding: 12px 24px;
     text-decoration: none;
@@ -67,7 +67,7 @@ ul.topnav li a {
     border-bottom-width: 1px;
 }
 
-/* Change background color (light-blue to white) and text color (blue to orange) of links on hover. */
+/* Change background color (light-blue to white) and text color (dark blue to orange) of links on hover. */
 ul.topnav li a:hover {
     background-color: #FFFFFF; /* White */
     color: #f68833; /* Orange */
@@ -81,40 +81,54 @@ h1, h2 {
 }
 
 #header {
+    float: left;
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+    background-color: #08507c; /* Dark Blue */
     text-align: center;
-    background-color: #08507c;
 }
 
 #left {
     float: left;
     margin: 0px;
-    padding: 0px;
+    padding: 40px 0px 40px 0px;
     width: 33.333%;
     background-color: #E5E6E3; /* White bone */
+    text-align: center;
 }
 
 #main {
     float: left;
     margin: 0px;
-    padding: 0px;
+    padding: 40px 0px 40px 0px;
     width: 33.333%;
     background-color: #0377C0; /* Blue */
+    text-align: center;
 }
 
 #right {
     float: left;
     margin: 0px;
-    padding: 0px;
+    padding: 40px 0px 40px 0px;
     width: 33.333%;
     background-color: #E5E6E3; /* White bone */
+    text-align: center;
 }
 
 #below {
     clear: both;
+    float: left;
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+    background-color: #FFFFFF; /* White */
+    text-align: center;
 }
 
 #footer {
     clear: both;
+    float: left;
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
 }
