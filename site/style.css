@@ -44,7 +44,7 @@ ul.topnav {
     width: 100%;
     float: left;
     overflow: hidden;
-    background-color: #deedf3; /* Light-blue */
+    background-color: #DEEDF3; /* Light-blue */
 }
 
 /* Float the list items side by side. */
@@ -55,7 +55,7 @@ ul.topnav li {
 /* Style the links inside the list items. */
 ul.topnav li a {
     display: inline-block;
-    color: #08507c; /* Dark Blue */
+    color: #08507C; /* Dark Blue */
     text-align: center;
     padding: 12px 24px;
     text-decoration: none;
@@ -70,9 +70,9 @@ ul.topnav li a {
 /* Change background color (light-blue to white) and text color (dark blue to orange) of links on hover. */
 ul.topnav li a:hover {
     background-color: #FFFFFF; /* White */
-    color: #f68833; /* Orange */
+    color: #F68833; /* Orange */
     border-bottom-style: solid;
-    border-bottom-color: #f68833; /* An orange line in the bottom */
+    border-bottom-color: #F68833; /* An orange line in the bottom */
     border-bottom-width: 1px;
 }
 
@@ -83,34 +83,34 @@ h1, h2 {
 #header {
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
-    background-color: #08507c; /* Dark Blue */
+    padding: 1.5em;
+    background-color: #08507C; /* Dark Blue */
     text-align: center;
 }
 
 #left {
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
     width: 33.333%;
+    padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
 }
 
-#main {
+#middle {
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
     width: 33.333%;
-    background-color: #0377C0; /* Blue */
+    padding: 40px 0px 40px 0px;
+    background-color: #E5E6E3; /* White bone */
     text-align: center;
 }
 
 #right {
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
     width: 33.333%;
+    padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
 }
@@ -119,8 +119,26 @@ h1, h2 {
     clear: both;
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
+    padding: 1.5em;
     background-color: #FFFFFF; /* White */
+    text-align: center;
+}
+
+#aside {
+    float: left;
+    margin: 0px;
+    width: 40%;
+    padding: 40px 0px 40px 0px;
+    background-color: #08507C; /* Dark Blue */
+    text-align: center;
+}
+
+#main {
+    float: left;
+    margin: 0px;
+    width: 60%;
+    padding: 40px 0px 40px 0px;
+    background-color: #E5E6E3; /* White bone */
     text-align: center;
 }
 
@@ -128,7 +146,7 @@ h1, h2 {
     clear: both;
     float: left;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
-    background-color: #E5E6E3; /* White bone */
+    padding: 1.5em;
+    background-color: #DEEDF3; /* Light-blue */
     text-align: center;
 }
