@@ -1,3 +1,9 @@
+/* Remove margins of all the page. */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* List of custom fonts. */
 @font-face {
     font-family: "WebFont";
@@ -35,12 +41,10 @@
 #topnavigation {  
 }
 
-/* Remove margins and padding from the list, and add a light-blue background color. */
+/* Add a light-blue background color. */
 ul.topnav {
     list-style-type: none;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
     float: left;
     overflow: hidden;
     background-color: #deedf3; /* Light-blue */
@@ -67,11 +71,6 @@ ul.topnav li a {
 ul.topnav li a:hover {
     background-color: #FFFFFF; /* White */
     color: #f68833; /* Orange */
-}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {
-    display: none;
 }
 
 #header {
