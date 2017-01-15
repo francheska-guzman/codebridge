@@ -62,6 +62,9 @@ ul.topnav li a {
     transition: 0.3s;
     font-family: "SemilightFont";
     font-size: 18px;
+    border-bottom-style: solid;
+    border-bottom-color: #E5E6E3; /* Bone white */
+    border-bottom-width: 1px;
 }
 
 /* Change background color (light-blue to white) and text color (blue to orange) of links on hover. */
@@ -73,34 +76,42 @@ ul.topnav li a:hover {
     border-bottom-width: 1px;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 #header {
-
-}
-
-h1 {
-
-}
-
-h2 {
-
+    text-align: center;
+    background-color: #08507c;
 }
 
 #left {
-
+    float: left;
+    margin: 0px;
+    width: 33%;
+    background-color: #E5E6E3; /* White bone */
 }
 
 #main {
-
+    float: left;
+    margin: 0px;
+    width: 34%;
+    background-color: #E5E6E3; /* White bone */
 }
 
 #right {
-
+    float: left;
+    margin: 0px;
+    width: 33%;
+    background-color: #E5E6E3; /* White bone */
 }
 
 #below {
-
+    clear: both;
 }
 
 #footer {
-
+    clear: both;
+    background-color: #E5E6E3; /* White bone */
+    text-align: center;
 }
