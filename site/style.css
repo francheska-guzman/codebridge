@@ -88,21 +88,24 @@ h1, h2 {
 #left {
     float: left;
     margin: 0px;
-    width: 33%;
+    padding: 0px;
+    width: 33.333%;
     background-color: #E5E6E3; /* White bone */
 }
 
 #main {
     float: left;
     margin: 0px;
-    width: 34%;
-    background-color: #E5E6E3; /* White bone */
+    padding: 0px;
+    width: 33.333%;
+    background-color: #0377C0; /* Blue */
 }
 
 #right {
     float: left;
     margin: 0px;
-    width: 33%;
+    padding: 0px;
+    width: 33.333%;
     background-color: #E5E6E3; /* White bone */
 }
 
