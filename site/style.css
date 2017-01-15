@@ -1,3 +1,40 @@
+/* List of custom fonts. */
+@font-face {
+    font-family: "WebFont";
+    src: url("fonts/fontawesome-webfont.woff") format("truetype");
+}
+@font-face {
+    font-family: "BlackFont40";
+    src: url("fonts/nitti-black-v40.woff") format("truetype");
+}
+@font-face {
+    font-family: "MediumFont40";
+    src: url("fonts/nitti-medium-v40.woff") format("truetype");
+}
+@font-face {
+    font-family: "NormalFont40";
+    src: url("fonts/nitti-normal-v40.woff") format("truetype");
+}
+@font-face {
+    font-family: "BlackFont20";
+    src: url("fonts/nittigrotesk-black-v20.woff") format("truetype");
+}
+@font-face {
+    font-family: "BoldFont20";
+    src: url("fonts/nittigrotesk-bold-v20.woff") format("truetype");
+}
+@font-face {
+    font-family: "NormalFont20";
+    src: url("fonts/nittigrotesk-normal-v20.woff") format("truetype");
+}
+@font-face {
+    font-family: "SemilightFont";
+    src: url("fonts/nittigrotesk-semilight-v20.woff") format("truetype");
+}
+
+#topnavigation {  
+}
+
 /* Remove margins and padding from the list, and add a black background color. */
 ul.topnav {
     list-style-type: none;
@@ -19,10 +56,11 @@ ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 40px;
+    padding: 14px 30px;
     text-decoration: none;
-    transition: 0.4s;
-    font-size: 14px;
+    transition: 0.5s;
+    font-family: "SemilightFont";
+    font-size: 20px;
 }
 
 /* Change background color of links on hover. */
@@ -33,4 +71,12 @@ ul.topnav li a:hover {
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
     display: none;
+}
+
+#header {
+    background-color: #094E7A;
+}
+
+#body {
+    background-color: ;
 }
