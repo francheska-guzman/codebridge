@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+#body {
+    overflow: absolute;
+    background-color: #E5E6E3; /* White bone */
+}
+
 /* List of custom fonts. */
 @font-face {
     font-family: "WebFont";
@@ -92,6 +97,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 33.333%;
+    height: 500px;
     padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
@@ -101,6 +107,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 33.333%;
+    height: 500px;
     padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
@@ -110,6 +117,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 33.333%;
+    height: 500px;
     padding: 40px 0px 40px 0px;
     background-color: #E5E6E3; /* White bone */
     text-align: center;
@@ -128,6 +136,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 40%;
+    height: 350px;
     padding: 40px 0px 40px 0px;
     background-color: #000000; /* Black */
     text-align: center;
@@ -137,6 +146,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 60%;
+    height: 350px;
     padding: 40px 0px 40px 0px;
     background-color: #08507C; /* Dark Blue */
     text-align: center;
