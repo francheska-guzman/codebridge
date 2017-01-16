@@ -136,6 +136,7 @@ h1, h2 {
     float: left;
     margin: 0px;
     width: 40%;
+    min-width: 420px; /* Width of the youtube video. */
     height: 300px;
     padding: 40px 0px 40px 0px;
     background-color: #000000; /* Black */
