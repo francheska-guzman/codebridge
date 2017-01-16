@@ -6,7 +6,6 @@
 
 #body {
     overflow: absolute;
-    background-color: #E5E6E3; /* White bone */
 }
 
 /* List of custom fonts. */
@@ -99,7 +98,7 @@ h1, h2 {
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #01263d; /* Very Dark Blue */
+    background-color: #E5E6E3; /* Bone white */
     text-align: center;
     overflow: hidden;
 }
@@ -110,7 +109,7 @@ h1, h2 {
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #FFFFFF; /* White */
+    background-color: #E5E6E3; /* Bone white */
     text-align: center;
     overflow: hidden;
 }
@@ -121,7 +120,7 @@ h1, h2 {
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #FFFFFF; /* White */
+    background-color: #E5E6E3; /* Bone white */
     text-align: center;
     overflow: hidden;
 }
@@ -130,7 +129,7 @@ h1, h2 {
     clear: both;
     margin: 0px;
     padding: 1.5em;
-    background-color: #E5E6E3; /* Bone white */
+    background-color: #DEEDF3; /* Light-blue */
 }
 
 #aside {
@@ -149,8 +148,9 @@ h1, h2 {
     width: 60%; /*100% - 40% = 60%*/
     height: 320px;
     padding: 30px 0px 30px 0px;
-    background-color: #01263d; /* Very Dark Blue */
+    background-color: #01263D; /* Very Dark Blue */
     overflow: scroll;
+    color: #FFFFFF; /* White */
 }
 
 #footer {
