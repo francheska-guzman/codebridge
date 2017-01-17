@@ -82,12 +82,35 @@ ul.topnav li a:hover {
 
 h1, h2 {
     text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+h1 {
+    color: #FEC150; /* Yellow */
+}
+
+h2 {
+    color: #0377C0; /* Blue */
+}
+
+h3 {
+    color: #F68833; /* Orange */
+}
+p {
+    display: block;
+    padding: 20px 20px 20px 20px;
+}
+
+iframe {
+    display: block;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #08507c; /* Dark blue */
 }
 
 #header {
     float: left;
     margin: 0px;
-    padding: 1.5em;
     background-color: #08507C; /* Dark Blue */
     text-align: center;
 }
@@ -95,9 +118,8 @@ h1, h2 {
 #main {
     float: left;
     margin: 0px;
-    padding: 1.5em;
-    background-color: #01263D; /* Very Dark Blue */
-    color: #FFFFFF; /* White */
+    background-color: #E5E6E3; /* Bone White */
+    text-align: left;
 }
 
 #left {
@@ -105,7 +127,6 @@ h1, h2 {
     margin: 0px;
     width: 33.333%;
     height: 700px;
-    padding: 40px 0px 40px 0px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
@@ -116,7 +137,6 @@ h1, h2 {
     margin: 0px;
     width: 33.333%;
     height: 700px;
-    padding: 40px 0px 40px 0px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
@@ -127,7 +147,6 @@ h1, h2 {
     margin: 0px;
     width: 33.333%;
     height: 700px;
-    padding: 40px 0px 40px 0px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
@@ -136,7 +155,6 @@ h1, h2 {
 #footer {
     clear: both;
     margin: 0px;
-    padding: 1.5em;
     background-color: #08507c; /* Dark blue */
     text-align: center;
 }
