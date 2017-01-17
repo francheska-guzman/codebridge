@@ -1,11 +1,7 @@
-/* Remove margins of all the page. */
+/* Remove margins on all the page. */
 * {
     margin: 0px;
     padding: 0px;
-}
-
-#body {
-    overflow: absolute;
 }
 
 /* List of custom fonts. */
@@ -46,12 +42,11 @@
 ul.topnav {
     list-style-type: none;
     width: 100%;
-    float: left;
     overflow: hidden;
     background-color: #DEEDF3; /* Light-blue */
 }
 
-/* Float the list items side by side. */
+/* Float the list items side by side to the right. */
 ul.topnav li {
     float: right;
 }
@@ -67,22 +62,22 @@ ul.topnav li a {
     font-family: "SemilightFont";
     font-size: 18px;
     border-bottom-style: solid;
-    border-bottom-color: #E5E6E3; /* Bone white */
+    border-bottom-color: #E5E6E3; /* Bone white in all the bottom. */
     border-bottom-width: 1px;
 }
 
-/* Change background color (light-blue to white) and text color (dark blue to orange) of links on hover. */
+/* Change background color (light-blue to white) and text color (dark blue to orange) on hover. */
 ul.topnav li a:hover {
     background-color: #FFFFFF; /* White */
     color: #F68833; /* Orange */
     border-bottom-style: solid;
-    border-bottom-color: #F68833; /* An orange line in the bottom */
+    border-bottom-color: #F68833; /* Bottom line change from bone white to orange. */
     border-bottom-width: 1px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px; /* Just padding the top. */
 }
 
 h1 {
@@ -129,7 +124,7 @@ iframe {
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
 
 #center {
@@ -139,7 +134,7 @@ iframe {
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
 
 #right {
@@ -149,7 +144,7 @@ iframe {
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
 
 #footer {
