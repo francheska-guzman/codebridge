@@ -93,14 +93,7 @@ h3 {
 }
 p {
     display: block;
-    padding: 20px 20px 20px 20px; /* Padding all the paragraphs. */
-}
-
-iframe {
-    display: block;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #08507c; /* Dark blue */
+    padding: 20px 20px 20px 20px; /* Padding all the paragraph. */
 }
 
 #header {
@@ -110,14 +103,32 @@ iframe {
     text-align: center;
 }
 
+#video {
+    float: left;
+    width: 66.666%;
+    background-color: #E5E6E3; /* Bone White */
+    text-align: center;
+}
+
+iframe {
+    margin: 0px; /* Padding left and right. */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E6E3; /* Bone White */
+}
+
 #main {
     float: left;
+    width: 33.333%;
+    height: 488px; /* Align with YouTube video. */
     margin: 0px;
     background-color: #E5E6E3; /* Bone White */
-    text-align: left;
+    text-align: center;
+    overflow: hidden; 
 }
 
 #left {
+    clear: both;
     float: left;
     margin: 0px;
     width: 33.333%;
