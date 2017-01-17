@@ -92,13 +92,21 @@ h1, h2 {
     text-align: center;
 }
 
+#main {
+    float: left;
+    margin: 0px;
+    padding: 1.5em;
+    background-color: #01263D; /* Very Dark Blue */
+    color: #FFFFFF; /* White */
+}
+
 #left {
     float: left;
     margin: 0px;
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #E5E6E3; /* Bone white */
+    background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
 }
@@ -109,7 +117,7 @@ h1, h2 {
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #E5E6E3; /* Bone white */
+    background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
 }
@@ -120,23 +128,9 @@ h1, h2 {
     width: 33.333%;
     height: 700px;
     padding: 40px 0px 40px 0px;
-    background-color: #E5E6E3; /* Bone white */
+    background-color: #DEEDF3; /* Light-blue */
     text-align: center;
     overflow: hidden;
-}
-
-#first {
-    clear: both;
-    margin: 0px;
-    padding: 1.5em;
-    background-color: #DEEDF3; /* Light-blue */
-}
-
-#second {
-    margin: 0px;
-    padding: 1.5em;
-    background-color: #01263D; /* Very Dark Blue */
-    color: #FFFFFF; /* White */
 }
 
 #footer {
