@@ -91,6 +91,10 @@ h2 {
 h3 {
     color: #F68833; /* Orange */
 }
+
+h4 {
+    color: #0F9CDA; /* Baby blue */
+}
 p {
     display: block;
     padding: 20px 20px 20px 20px; /* Padding all the paragraph. */
@@ -101,12 +105,14 @@ p {
     margin: 0px;
     background-color: #08507C; /* Dark Blue */
     text-align: center;
+    color: #FFFFFF; /* White */
 }
 
 #video {
     float: left;
     width: 66.666%;
-    background-color: #E5E6E3; /* Bone White */
+    padding: 24px 0px 24px 0px;
+    background-color: #01263D; /* Very Dark Blue */
     text-align: center;
 }
 
@@ -114,15 +120,16 @@ iframe {
     margin: 0px; /* Padding left and right. */
     border-style: solid;
     border-width: 2px;
-    border-color: #E5E6E3; /* Bone White */
+    border-color: #01263D; /* Very Dark Blue */
 }
 
 #main {
     float: left;
     width: 33.333%;
-    height: 488px; /* Align with YouTube video. */
+    height: 536px; /* Align with YouTube video. */
     margin: 0px;
-    background-color: #E5E6E3; /* Bone White */
+    background-color: #01263D; /* Very Dark Blue */
+    color: #FFFFFF; /* White */
     text-align: center;
     overflow: hidden; 
 }
@@ -134,6 +141,7 @@ iframe {
     width: 33.333%;
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
+    color: #434343; /* Brown */
     text-align: center;
     overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
@@ -144,6 +152,7 @@ iframe {
     width: 33.333%;
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
+    color: #434343; /* Brown */
     text-align: center;
     overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
@@ -154,6 +163,7 @@ iframe {
     width: 33.333%;
     height: 700px;
     background-color: #DEEDF3; /* Light-blue */
+    color: #434343; /* Brown */
     text-align: center;
     overflow: hidden; /* Because height is fixed in 700px, overflow is necessary. */
 }
@@ -162,5 +172,6 @@ iframe {
     clear: both;
     margin: 0px;
     background-color: #08507c; /* Dark blue */
+    color: #FFFFFF; /* White */
     text-align: center;
 }
