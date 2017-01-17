@@ -38,7 +38,7 @@
     src: url("fonts/nittigrotesk-semilight-v20.woff") format("truetype");
 }
 
-/* Add a light-blue background color. */
+/* Add a light-blue in the navigation bar background. */
 ul.topnav {
     list-style-type: none;
     width: 100%;
@@ -59,7 +59,7 @@ ul.topnav li a {
     padding: 12px 24px;
     text-decoration: none;
     transition: 0.3s;
-    font-family: "SemilightFont";
+    font-family: "SemilightFont"; /* This is a custom font. */
     font-size: 18px;
     border-bottom-style: solid;
     border-bottom-color: #E5E6E3; /* Bone white in all the bottom. */
@@ -93,7 +93,7 @@ h3 {
 }
 p {
     display: block;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px; /* Padding all the paragraphs. */
 }
 
 iframe {
