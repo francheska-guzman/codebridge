@@ -157,6 +157,26 @@ p {
 	color: #000000;
 }
 
+/* Color for all hyperlinks. */
+
+/* Unvisited link. */
+a:link {
+    color: #08507c; /* Dark Blue */
+    text-decoration: none; /* No underline */
+}
+
+/* Visited link. */
+a:visited {
+    color: #0F9CDA; /* Baby Blue */
+    text-decoration: none;
+}
+
+/* Mouse over link. */
+a:hover {
+    color: #F68833; /* Orange */
+    text-decoration: none;
+}
+
 #header {
     float: center;
     background-color: #08507C; /* Dark Blue */
