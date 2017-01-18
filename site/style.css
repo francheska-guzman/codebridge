@@ -158,7 +158,7 @@ p {
 }
 
 #header {
-    float: left;
+    float: center;
     background-color: #08507C; /* Dark Blue */
 }
 
@@ -167,6 +167,7 @@ p {
     width: 66.666%;
     padding: 20px 0px 20px 0px;
     background-color: #01263D; /* Very Dark Blue */
+    overflow: hidden; /* Necessary because the video have a fixed width and height. */
 }
 
 iframe {
@@ -179,8 +180,8 @@ iframe {
 	float: left;
     width: 33.333%;
     height: 488px; /* Align with YouTube video. */
+    overflow: hidden; /* Because height is 488px, overflow is necessary. */
     background-color: #01263D; /* Very Dark Blue */
-    overflow: hidden; 
 }
 
 #sources {
@@ -195,8 +196,8 @@ iframe {
     float: left;
     width: 33.333%;
     height: 800px;
+    overflow: hidden; /* Because height is 800px, overflow is necessary. */
     background-color: #DEEDF3; /* Light Blue */
-    overflow: hidden; /* Because height is fixed in 800px, overflow is necessary. */
 }
 
 /* About CSS */
@@ -204,8 +205,8 @@ iframe {
     float: left;
     width: 33.333%;
     height: 800px;
-    background-color: #DEEDF3; /* Light Blue */
     overflow: hidden;
+    background-color: #DEEDF3; /* Light Blue */
 }
 
 /* About Git */
@@ -213,11 +214,12 @@ iframe {
     float: left;
     width: 33.333%;
     height: 800px;
-    background-color: #DEEDF3; /* Light Blue */
     overflow: hidden;
+    background-color: #DEEDF3; /* Light Blue */
 }
 
 #footer {
     clear: both;
+    float: center;
     background-color: #08507c; /* Dark blue */
 }
