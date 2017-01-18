@@ -209,7 +209,7 @@ iframe {
 #sources {
     clear: both;
     float: center;
-    background-color: #DEEDF3; /* Light Blue */
+    background-color: #FFFFFF; /* White */
 }
 
 /* About HTML */
@@ -219,7 +219,7 @@ iframe {
     width: 33.333%;
     height: 800px;
     overflow: hidden; /* Because height is 800px, overflow is necessary. */
-    background-color: #DEEDF3; /* Light Blue */
+    background-color: #FFFFFF; /* White */
 }
 
 /* About CSS */
@@ -228,15 +228,22 @@ iframe {
     width: 33.333%;
     height: 800px;
     overflow: hidden;
-    background-color: #DEEDF3; /* Light Blue */
+    background-color: #FFFFFF; /* White */
 }
 
-/* About Git */
+/* About JavaScript */
 #right {
     float: left;
     width: 33.333%;
     height: 800px;
     overflow: hidden;
+    background-color: #FFFFFF; /* White */
+}
+
+/* About Git */
+#below {
+    clear: both;
+    float: center;
     background-color: #DEEDF3; /* Light Blue */
 }
 
