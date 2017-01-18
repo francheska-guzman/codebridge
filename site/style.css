@@ -179,29 +179,31 @@ a:hover {
 
 #header {
     float: center;
-    background-color: #08507C; /* Dark Blue */
+    background-color: #08507c; /* Very Dark Blue */
 }
 
 #video {
+    clear: both;
     float: left;
     width: 66.666%;
-    padding: 20px 0px 20px 0px;
-    background-color: #01263D; /* Very Dark Blue */
-    overflow: hidden; /* Necessary because the video have a fixed width and height. */
+    height: 500px;
+    overflow: hidden; /* Because height is 500px, specify overflow is necessary. */
+    background-color: #E5E6E3; /* Bone White */
+    text-align: center; /* Align horizonal the video. */
 }
 
 iframe {
     border-style: solid;
-    border-width: 2px;
-    border-color: #01263D; /* Very Dark Blue */
+    border-width: 20px;
+    border-color: #E5E6E3; /* Bone White */
 }
 
 #main {
 	float: left;
     width: 33.333%;
-    height: 488px; /* Align with YouTube video. */
-    overflow: hidden; /* Because height is 488px, overflow is necessary. */
-    background-color: #01263D; /* Very Dark Blue */
+    height: 500px; /* Align with YouTube video. */
+    overflow: hidden;
+    background-color: #E5E6E3; /* Bone White */
 }
 
 #sources {
