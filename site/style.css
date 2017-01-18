@@ -86,28 +86,29 @@ h2 {
 	padding: 20px 0px 0px 0px; /* Just padding the top. */
 	text-align: center;
 	font-size: 40px;
-	font-family: "SemilightFont"; 
+	font-family: "NormalFont40"; 
 }
 
 h3 {
 	padding: 20px 0px 0px 0px;
 	text-align: center;
 	font-size: 30px;
-	font-family: "NormalFont20"; 
+	font-family: "WebFont"; 
 }
 
 h4 {
 	padding: 0px 0px 0px 0px;
 	text-align: center;
 	font-size: 20px;
-	font-family: "NormalFont20"; 
+	font-family: "SemilightFont"; 
 }
 
 p {
     display: block;
     padding: 20px 20px 20px 20px; /* Padding all the paragraph. */
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "NormalFont20";
 }
 
 /*Color for headings and paragraphs.*/
@@ -177,7 +178,7 @@ iframe {
 #main {
 	float: left;
     width: 33.333%;
-    height: 528px; /* Align with YouTube video. */
+    height: 488px; /* Align with YouTube video. */
     background-color: #01263D; /* Very Dark Blue */
     overflow: hidden; 
 }
