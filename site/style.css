@@ -75,126 +75,148 @@ ul.topnav li a:hover {
     border-bottom-width: 1px;
 }
 
-h1, h2, h3 {
-    text-align: center;
-    padding: 20px 0px 0px 0px; /* Just padding the top. */
-}
-
 h1 {
-    color: #DEEDF3; /* Light-blue */
-    font-family: "BlackFont20"; /* This is a custom font. */
-    font-size: 60px;
+	padding: 20px 0px 0px 0px; /* Just padding the top. */
+	text-align: center;
+	font-size: 70px;
+	font-family: "BoldFont20"; 
 }
 
 h2 {
-    color: #01263D; /* Very Dark Blue */
-    font-size: 30px;
+	padding: 20px 0px 0px 0px; /* Just padding the top. */
+	text-align: center;
+	font-size: 40px;
+	font-family: "SemilightFont"; 
 }
 
-
 h3 {
-    color: #0377C0; /* Blue */
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "NormalFont20"; 
 }
 
 h4 {
-    color: #0F9CDA; /* Baby blue */
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "NormalFont20"; 
 }
 
 p {
     display: block;
     padding: 20px 20px 20px 20px; /* Padding all the paragraph. */
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Color for headings and paragraphs.*/
+
+.lightblue {
+	color: #DEEDF3;
+}
+
+.babyblue {
+	color: #0F9CDA;
+}
+
+.blue {
+	color: #0377C0;
+}
+
+.darkblue {
+	color: #08507c;
+}
+
+.verydarkblue {
+	color: #01263D;
+}
+
+.bonewhite {
+	color: #E5E6E3;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.yellow {
+	color: #FEC150;
+}
+
+.orange {
+	color: #F68833;
+}
+
+.brown {
+	color: #434343;
+}
+
+.black {
+	color: #000000;
 }
 
 #header {
     float: left;
-    margin: 0px;
     background-color: #08507C; /* Dark Blue */
-    text-align: center;
-    font-family: "NormalFont20"; /* This is a custom font. */
-    font-size: 18px;
-    color: #FFFFFF; /* White */
 }
 
 #video {
     float: left;
     width: 66.666%;
-    padding: 24px 0px 24px 0px;
+    padding: 20px 0px 20px 0px;
     background-color: #01263D; /* Very Dark Blue */
-    text-align: center;
 }
 
 iframe {
-    margin: 0px; /* Padding left and right. */
     border-style: solid;
     border-width: 2px;
     border-color: #01263D; /* Very Dark Blue */
 }
 
 #main {
-    float: left;
+	float: left;
     width: 33.333%;
-    height: 536px; /* Align with YouTube video. */
-    margin: 0px;
+    height: 528px; /* Align with YouTube video. */
     background-color: #01263D; /* Very Dark Blue */
-    color: #FFFFFF; /* White */
-    text-align: center;
     overflow: hidden; 
 }
 
 #sources {
     clear: both;
-    margin: 0px;
-    background-color: #DEEDF3; /* Light-blue */
-    text-align: center;
+    float: center;
+    background-color: #DEEDF3; /* Light Blue */
 }
 
 /* About HTML */
 #left {
     clear: both;
     float: left;
-    margin: 0px;
     width: 33.333%;
     height: 800px;
-    background-color: #DEEDF3; /* Light-blue */
-    font-family: "NormalFont20"; /* This is a custom font. */
-    font-size: 20px;
-    color: #434343; /* Brown */
-    text-align: center;
+    background-color: #DEEDF3; /* Light Blue */
     overflow: hidden; /* Because height is fixed in 800px, overflow is necessary. */
 }
 
 /* About CSS */
 #center {
     float: left;
-    margin: 0px;
     width: 33.333%;
     height: 800px;
-    background-color: #DEEDF3; /* Light-blue */
-    font-family: "NormalFont20"; /* This is a custom font. */
-    font-size: 20px;
-    color: #434343; /* Brown */
-    text-align: center;
+    background-color: #DEEDF3; /* Light Blue */
     overflow: hidden;
 }
 
 /* About Git */
 #right {
     float: left;
-    margin: 0px;
     width: 33.333%;
     height: 800px;
-    background-color: #DEEDF3; /* Light-blue */
-    font-family: "NormalFont20"; /* This is a custom font. */
-    font-size: 20px;
-    color: #434343; /* Brown */
-    text-align: center;
+    background-color: #DEEDF3; /* Light Blue */
     overflow: hidden;
 }
 
 #footer {
     clear: both;
-    margin: 0px;
     background-color: #08507c; /* Dark blue */
-    color: #FFFFFF; /* White */
-    text-align: center;
 }
