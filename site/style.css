@@ -240,13 +240,6 @@ iframe {
     background-color: #FFFFFF; /* White */
 }
 
-ul.benefits {
-    text-align: left;
-    font-size: 20px;
-    font-family: "NormalFont20"; 
-    color: #434343; /* Brown */
-}
-
 /* About Git */
 #below {
     clear: both;
