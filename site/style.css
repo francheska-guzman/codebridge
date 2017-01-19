@@ -104,6 +104,14 @@ h4 {
 }
 
 h5 {
+    text-align: left;
+    font-size: 22px;
+    font-family: "SemilightFont"; 
+    color: #F68833; /* Orange */
+    padding: 0px 0px 0px 20px; /* Padding the left. */
+}
+
+h6 {
     text-align: center;
     font-size: 30px;
     font-family: "NormalFont40"; 
@@ -121,7 +129,9 @@ p {
 
 /* Unvisited link. */
 a:link {
-    color: #08507c; /* Dark Blue */
+    font-size: 20px;
+    font-family: "NormalFont20";
+    color: #0F9CDA; /* Baby Blue */
     text-decoration: none; /* No underline */
 }
 
@@ -137,9 +147,13 @@ a:hover {
     text-decoration: none;
 }
 
+.links a {
+    padding: 0px 0px 0px 20px; /* Padding the left side. */
+}
+
 #header {
     float: center;
-    padding: 20px 0px 0px 0px; /* Just padding the top. */
+    padding: 20px 0px 0px 0px; /* Padding the top. */
     background-color: #08507c; /* Very Dark Blue */
     text-align: center;
     color: #E5E6E3; /* Bone White */
