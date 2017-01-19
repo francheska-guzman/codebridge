@@ -225,6 +225,7 @@ iframe {
     background-color: #DEEDF3; /* Light Blue */
 }
 
+/* Images */
 #belowleft {
     clear: both;
     float: left;
@@ -235,6 +236,7 @@ iframe {
     text-align: right;
 }
 
+/* Information */
 #belowright {
     float: left;
     width: 85%;
