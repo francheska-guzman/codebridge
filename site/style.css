@@ -190,9 +190,6 @@ a:hover {
 
 ul.links {
     list-style-type: none; 
-}
-
-.links a {
     padding: 0px 0px 0px 20px; /* Padding the left side. */
 }
 
@@ -249,7 +246,7 @@ img.animation:hover {
 
 /* About Git and GitHub */
 #belowright {
-    float: left;
+    float: right;
     padding: 20px 0px 0px 0px;
     width: 70%;
     height: 380px;
