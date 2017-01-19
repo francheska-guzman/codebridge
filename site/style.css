@@ -1,3 +1,7 @@
+html {
+    background-color: #FFFFFF; /* White */
+}
+
 /* Remove margins on all the page. */
 * {
     margin: 0px;
@@ -147,10 +151,6 @@ a:hover {
     text-decoration: none;
 }
 
-.links a {
-    padding: 0px 0px 0px 20px; /* Padding the left side. */
-}
-
 #header {
     float: center;
     padding: 20px 0px 20px 0px; /* Padding the top. */
@@ -188,15 +188,20 @@ a:hover {
     background-color: #FFFFFF; /* White */
 }
 
+ul.links {
+    list-style-type: none; 
+}
+
+.links a {
+    padding: 0px 0px 0px 20px; /* Padding the left side. */
+}
+
 /* About HTML */
 #left {
     clear: both;
     float: left;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     width: 33.333%;
-    height: 480px;
-    overflow: hidden; /* Because height is 800px, overflow is necessary. */
-    background-color: #FFFFFF; /* White */
     text-align: justify;
     color: #434343; /* Brown */
 }
@@ -204,11 +209,8 @@ a:hover {
 /* About CSS */
 #center {
     float: left;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     width: 33.333%;
-    height: 480px;
-    overflow: hidden;
-    background-color: #FFFFFF; /* White */
     text-align: justify;
     color: #434343; /* Brown */
 }
@@ -216,11 +218,8 @@ a:hover {
 /* About JavaScript */
 #right {
     float: left;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     width: 33.333%;
-    height: 480px;
-    overflow: hidden;
-    background-color: #FFFFFF; /* White */
     text-align: justify;
     color: #434343; /* Brown */
 }
@@ -256,7 +255,7 @@ img.animation:hover {
     height: 380px;
     overflow: hidden;
     background-color: #DEEDF3; /* Light Blue */
-    text-align: left;
+    text-align: justify;
     color: #434343; /* Brown */
 }
 
