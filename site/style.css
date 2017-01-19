@@ -200,7 +200,7 @@ iframe {
     float: left;
     padding: 20px 0px 0px 0px;
     width: 33.333%;
-    height: 800px;
+    height: 480px;
     overflow: hidden; /* Because height is 800px, overflow is necessary. */
     background-color: #FFFFFF; /* White */
     text-align: justify;
@@ -212,7 +212,7 @@ iframe {
     float: left;
     padding: 20px 0px 0px 0px;
     width: 33.333%;
-    height: 800px;
+    height: 480px;
     overflow: hidden;
     background-color: #FFFFFF; /* White */
     text-align: justify;
@@ -224,7 +224,7 @@ iframe {
     float: left;
     padding: 20px 0px 0px 0px;
     width: 33.333%;
-    height: 800px;
+    height: 480px;
     overflow: hidden;
     background-color: #FFFFFF; /* White */
     text-align: justify;
@@ -243,8 +243,9 @@ iframe {
 #belowleft {
     clear: both;
     float: left;
+    padding: 20px 0px 20px 0px;
     width: 15%;
-    height: 390px;
+    height: 320px;
     overflow: hidden;
     background-color: #DEEDF3; /* Light Blue */
     text-align: right;
@@ -254,7 +255,7 @@ iframe {
 #belowright {
     float: left;
     width: 85%;
-    height: 390px;
+    height: 320px;
     overflow: hidden;
     background-color: #DEEDF3; /* Light Blue */
     text-align: justify;
