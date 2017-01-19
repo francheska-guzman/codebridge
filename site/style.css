@@ -230,7 +230,7 @@ iframe {
     clear: both;
     float: left;
     width: 15%;
-    height: 400px;
+    height: 390px;
     overflow: hidden;
     background-color: #DEEDF3; /* Light Blue */
     text-align: right;
@@ -240,7 +240,7 @@ iframe {
 #belowright {
     float: left;
     width: 85%;
-    height: 400px;
+    height: 390px;
     overflow: hidden;
     background-color: #DEEDF3; /* Light Blue */
     text-align: justify;
