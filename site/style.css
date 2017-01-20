@@ -1,3 +1,5 @@
+/* AFFECT ALL PAGES */
+
 html {
     background-color: #FFFFFF; /* White */
 }
@@ -151,6 +153,22 @@ a:hover {
     text-decoration: none;
 }
 
+img.animation {
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+  }
+  
+img.animation:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transition: 0.9s;
+}
+
+ul.links {
+    list-style-type: none; 
+    padding: 0px 0px 0px 20px; /* Padding the left side. */
+}
+
 #header {
     float: center;
     padding: 20px 0px 20px 0px; /* Padding the top. */
@@ -159,7 +177,9 @@ a:hover {
     color: #E5E6E3; /* Bone White */
 }
 
-#video {
+/* INDEX */
+
+#youtubevideo {
     clear: both;
     float: left;
     padding: 20px 0px 20px 0px;
@@ -186,11 +206,6 @@ a:hover {
     float: center;
     padding: 20px 0px 0px 0px; /* Just padding the top. */
     background-color: #FFFFFF; /* White */
-}
-
-ul.links {
-    list-style-type: none; 
-    padding: 0px 0px 0px 20px; /* Padding the left side. */
 }
 
 /* About HTML */
@@ -233,17 +248,6 @@ ul.links {
     text-align: left;
 }
 
-img.animation {
-    opacity: 0.85;
-    filter: alpha(opacity=85);
-  }
-  
-img.animation:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-    transition: 0.9s;
-}
-
 /* About Git and GitHub */
 #belowright {
     float: right;
@@ -263,4 +267,11 @@ img.animation:hover {
     background-color: #08507c; /* Dark blue */
     text-align: center;
     color: #E5E6E3; /* Bone White */
+}
+
+/* MISSION */
+
+img {
+    max-width: 100%;
+    height: auto;
 }
