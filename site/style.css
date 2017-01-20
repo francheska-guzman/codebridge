@@ -285,7 +285,14 @@ img {
 
 #vision {
     float: center;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 0px 50px;
     text-align: center;
     color: #434343; /* Brown */
 }
+
+#aboutme {
+    float: center;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    color: #434343; /* Brown */
+ }
