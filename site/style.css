@@ -271,6 +271,11 @@ ul.links {
 
 /* STATEMENTS */
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #mission {
     float: center;
     padding: 50px 50px 0px 50px;
@@ -283,9 +288,4 @@ ul.links {
     padding: 0px 50px 50px 50px;
     text-align: center;
     color: #434343; /* Brown */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
