@@ -43,7 +43,7 @@ html {
 }
 
 /* Add a light-blue in the navigation bar background. */
-ul.topnav {
+ul.navigation {
     list-style-type: none; /* No bullets or numbers in the list. */
     width: 100%;
     overflow: hidden;
@@ -51,12 +51,12 @@ ul.topnav {
 }
 
 /* Float the list items side by side to the right. */
-ul.topnav li {
+ul.navigation li {
     float: right;
 }
 
 /* Style the links inside the list items. */
-ul.topnav li a {
+ul.navigation li a {
     display: inline-block;
     color: #08507C; /* Dark Blue */
     text-align: center;
@@ -71,7 +71,7 @@ ul.topnav li a {
 }
 
 /* Change background color (light-blue to white) and text color (dark blue to orange) on hover. */
-ul.topnav li a:hover {
+ul.navigation li a:hover {
     background-color: #FFFFFF; /* White */
     color: #F68833; /* Orange */
     border-bottom-style: solid;
