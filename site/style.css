@@ -269,7 +269,21 @@ ul.links {
     color: #E5E6E3; /* Bone White */
 }
 
-/* MISSION */
+/* STATEMENTS */
+
+#mission {
+    float: center;
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    color: #434343; /* Brown */
+}
+
+#vision {
+    float: center;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    color: #434343; /* Brown */
+}
 
 img {
     max-width: 100%;
