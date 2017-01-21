@@ -77,7 +77,7 @@ ul.navigation li a:hover {
     background-color: #FFFFFF; /* White */
     color: #F68833; /* Orange */
     border-bottom-style: solid;
-    border-bottom-color: #F68833; /* Bottom line change from bone white to orange. */
+    border-bottom-color: #FEC150; /* Bottom line change from bone white to yellow. */
     border-bottom-width: 1px;
 }
 
