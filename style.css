@@ -153,17 +153,6 @@ a:hover {
     text-decoration: none;
 }
 
-img.animation {
-    opacity: 0.85;
-    filter: alpha(opacity=85);
-  }
-  
-img.animation:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-    transition: 0.9s;
-}
-
 ul.links {
     list-style-type: none; 
     padding: 0px 0px 0px 20px; /* Padding the left side. */
@@ -179,23 +168,18 @@ ul.links {
 
 /* INDEX */
 
-#youtubevideo {
-    clear: both;
+iframe.youtube {
     float: left;
-    padding: 20px 0px 20px 0px;
-    width: 66.666%;
-    height: 410px;
-    overflow: hidden; /* Because height is 500px, specify overflow is necessary. */
-    background-color: #E5E6E3; /* Bone White */
-    text-align: center; /* Align horizonal the video. */
+    margin: 0px 20px 0px 0px;
+    width: 750px;
+    height: 420px;
 }
 
 #main {
-	float: left;
-    padding: 20px 0px 20px 0px;
-    width: 33.333%;
-    height: 410px; /* Align with YouTube video. */
-    overflow: hidden;
+    clear: both;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
     background-color: #E5E6E3; /* Bone White */
     text-align: justify;
     color: #434343; /* Brown */
@@ -236,27 +220,23 @@ ul.links {
     color: #434343; /* Brown */
 }
 
-/* Book Image */
-#belowleft {
-    clear: both;
+/* About Git and GitHub */
+img.git {
     float: left;
-    padding: 0px 0px 0px 0px;
-    width: 30%;
-    height: 400px;
-    overflow: hidden;
-    background-color: #DEEDF3; /* Light Blue */
-    text-align: left;
+    margin: 0px 20px 0px 0px;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FEC150; /* Yellow */
 }
 
-/* About Git and GitHub */
-#belowright {
-    float: right;
-    padding: 20px 0px 0px 0px;
-    width: 70%;
-    height: 380px;
-    overflow: hidden;
+#below {
+    clear: both;
+    float: left;
+    padding: 20px 20px 20px 20px;
     background-color: #DEEDF3; /* Light Blue */
-    text-align: justify;
+    text-align: left;
     color: #434343; /* Brown */
 }
 
@@ -269,12 +249,7 @@ ul.links {
     color: #E5E6E3; /* Bone White */
 }
 
-/* STATEMENTS */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
+/* ABOUT */
 
 #mission {
     float: center;
