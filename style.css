@@ -124,6 +124,10 @@ h6 {
     color: #FEC150; /* Yellow */
 }
 
+h3.left, h4.left {
+    text-align: left;
+}
+
 p {
     display: block;
     padding: 20px 20px 20px 20px; /* Padding all the paragraph. */
@@ -229,6 +233,12 @@ img.git {
     border-style: solid;
     border-width: 2px;
     border-color: #FEC150; /* Yellow */
+}
+
+img.git:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F68833; /* Orange */
 }
 
 #below {
