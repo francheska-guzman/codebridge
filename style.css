@@ -124,8 +124,9 @@ h6 {
     color: #FEC150; /* Yellow */
 }
 
-h3.left, h4.left {
+h3.left {
     text-align: left;
+    padding: 0px 0px 0px 20px;
 }
 
 p {
@@ -180,10 +181,9 @@ iframe.youtube {
 }
 
 #main {
-    clear: both;
-    float: left;
+    float: center;
+    min-height: 420px; /* Same of the YouTube video. */
     padding: 20px 20px 20px 20px;
-    width: 100%;
     background-color: #E5E6E3; /* Bone White */
     text-align: justify;
     color: #434343; /* Brown */
@@ -224,12 +224,41 @@ iframe.youtube {
     color: #434343; /* Brown */
 }
 
-/* About Git and GitHub */
-img.git {
+/* About GitHub and Git */
+
+#belowleft {
+    clear: both;
     float: left;
-    margin: 0px 20px 0px 0px;
-    width: 250px;
-    height: 300px;
+    padding: 20px 0px 20px 0px;
+    width: 66.666%;
+    height: 240px;
+    overflow: scroll;
+    background-color: #DEEDF3; /* Light Blue */
+    text-align: justify;
+    color: #434343; /* Brown */
+}
+
+img.github {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    width: 240px;
+    height: 240px;
+}
+
+#belowright {
+    float: left;
+    padding: 20px 0px 20px 0px;
+    width: 33.333%;
+    height: 240px;
+    background-color: #DEEDF3; /* Light Blue */
+    text-align: center;
+    color: #434343; /* Brown */
+}
+
+img.git {
+    float: center;
+    width: 140px;
+    height: 180px;
     border-style: solid;
     border-width: 2px;
     border-color: #FEC150; /* Yellow */
@@ -239,15 +268,6 @@ img.git:hover {
     border-style: solid;
     border-width: 2px;
     border-color: #F68833; /* Orange */
-}
-
-#below {
-    clear: both;
-    float: left;
-    padding: 20px 20px 20px 20px;
-    background-color: #DEEDF3; /* Light Blue */
-    text-align: left;
-    color: #434343; /* Brown */
 }
 
 #footer {
