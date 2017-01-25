@@ -283,15 +283,6 @@ img.git:hover {
     border-color: #F68833; /* Orange */
 }
 
-#footer {
-    clear: both;
-    float: center;
-    padding: 20px 0px 0px 0px;
-    background-color: #08507c; /* Dark blue */
-    text-align: center;
-    color: #E5E6E3; /* Bone White */
-}
-
 /* ABOUT */
 
 #mission {
