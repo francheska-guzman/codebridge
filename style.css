@@ -238,15 +238,15 @@ iframe.youtube {
 }
 
 img.github {
-    padding: 0px 0px 0px 20px;
-    width: 130px;
-    height: 130px;
+    padding: 20px 0px 20px 20px;
+    width: 140px;
+    height: 140px;
 }
 
 img.github:hover {
-    transition: 0.4s;
-    width: 150px;
-    height: 150px;
+    transition: 0.7s;
+    width: 160px;
+    height: 160px;
 }
 
 #belowcenter {
