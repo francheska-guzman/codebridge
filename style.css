@@ -230,29 +230,42 @@ iframe.youtube {
     clear: both;
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 66.666%;
+    width: 15%;
     height: 240px;
-    overflow: scroll;
+    background-color: #DEEDF3; /* Light Blue */
+    text-align: center;
+
+}
+
+img.github {
+    float: center;
+    width: 130px;
+    height: 130px;
+}
+
+img.github:hover {
+    transition: 0.3s;
+    width: 150px;
+    height: 150px;
+}
+
+#belowcenter {
+    float: left;
+    padding: 20px 0px 20px 0px;
+    width: 70%;
+    height: 240px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: justify;
     color: #434343; /* Brown */
 }
 
-img.github {
-    float: left;
-    padding: 0px 20px 0px 20px;
-    width: 240px;
-    height: 240px;
-}
-
 #belowright {
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 33.333%;
+    width: 15%;
     height: 240px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: center;
-    color: #434343; /* Brown */
 }
 
 img.git {
