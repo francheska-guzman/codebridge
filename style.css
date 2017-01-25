@@ -238,13 +238,13 @@ iframe.youtube {
 }
 
 img.github {
-    float: center;
+    padding: 0px 0px 0px 20px;
     width: 130px;
     height: 130px;
 }
 
 img.github:hover {
-    transition: 0.3s;
+    transition: 0.4s;
     width: 150px;
     height: 150px;
 }
@@ -269,7 +269,7 @@ img.github:hover {
 }
 
 img.git {
-    float: center;
+    margin: 0px 20px 0px 0px;
     width: 140px;
     height: 180px;
     border-style: solid;
