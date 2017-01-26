@@ -230,8 +230,8 @@ iframe.youtube {
     clear: both;
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 15%;
-    height: 240px;
+    width: 14%;
+    height: 190px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: center;
 
@@ -239,21 +239,21 @@ iframe.youtube {
 
 img.github {
     padding: 20px 0px 20px 20px;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
 
 img.github:hover {
     transition: 0.7s;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
 }
 
 #belowcenter {
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 70%;
-    height: 240px;
+    width: 74%;
+    height: 190px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: justify;
     color: #434343; /* Brown */
@@ -262,24 +262,22 @@ img.github:hover {
 #belowright {
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 15%;
-    height: 240px;
+    width: 12%;
+    height: 190px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: center;
 }
 
 img.git {
-    margin: 0px 20px 0px 0px;
-    width: 140px;
-    height: 180px;
+    margin: 20px 20px 20px 0px;
+    width: 120px;
+    height: 150px;
     border-style: solid;
     border-width: 2px;
     border-color: #FEC150; /* Yellow */
 }
 
 img.git:hover {
-    border-style: solid;
-    border-width: 2px;
     border-color: #F68833; /* Orange */
 }
 
@@ -305,3 +303,4 @@ img.git:hover {
     text-align: center;
     color: #434343; /* Brown */
  }
+
