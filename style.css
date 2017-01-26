@@ -99,7 +99,7 @@ h3 {
 	text-align: center;
 	font-size: 30px;
 	font-family: "WebFont"; 
-    color: #08507c; /* Dark Blue */
+    color: #08507C; /* Dark Blue */
 }
 
 h4 {
@@ -136,6 +136,29 @@ p {
     font-family: "NormalFont20";
 }
 
+p.resume1 {
+    padding: 5px 0px 0px 50px;
+    font-size: 24px;
+    font-family: "NormalFont20";
+    font-weight: bold;
+    color: #434343; /* Brown */
+}
+
+p.resume2 {
+    padding: 5px 0px 0px 50px;
+    font-size: 20px;
+    font-family: "NormalFont20";
+    font-weight: bold;
+    color: #434343; /* Brown */
+}
+
+p.resume3 {
+    padding: 5px 0px 0px 50px;
+    font-size: 20px;
+    font-family: "NormalFont20";
+    color: #434343; /* Brown */
+}
+
 /* Color for all hyperlinks. */
 
 /* Unvisited link. */
@@ -161,6 +184,15 @@ a:hover {
 ul.links {
     list-style-type: none; 
     padding: 0px 0px 0px 20px; /* Padding the left side. */
+}
+
+ul.list {
+    display: block;
+    list-style-type: disc;
+    padding: 5px 0px 0px 100px;
+    font-size: 20px;
+    font-family: "NormalFont20";
+    color: #434343; /* Brown */
 }
 
 #header {
@@ -285,22 +317,65 @@ img.git:hover {
 
 #mission {
     float: center;
-    padding: 50px 50px 0px 50px;
+    padding: 100px 150px 0px 150px;
     text-align: center;
     color: #434343; /* Brown */
 }
 
 #vision {
     float: center;
-    padding: 0px 50px 0px 50px;
+    padding: 20px 150px 100px 150px;
     text-align: center;
     color: #434343; /* Brown */
 }
 
+
+#anchor {
+    clear: both;
+    float: left;
+    padding: 100px 0px 50px 0px;
+    width: 20%;
+    height: 500px;
+    text-align: left;
+    background-color: #08507C; /* Dark Blue */
+ }
+
+/* Add a light-blue in the navigation bar background. */
+ul.anchorstyle {
+    list-style-type: none; /* No bullets or numbers in the list. */
+    background-color: #08507C; /* Dark Blue */
+}
+
+/* Style the links inside the list items. */
+ul.anchorstyle li a {
+    padding: 0px 0px 0px 20px;
+    display: inline-block;
+    color: #FFFFFF; /* White */
+    text-align: left;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "SemilightFont"; /* This is a custom font. */
+    font-size: 25px;
+    border-left-style: solid;
+    border-left-color: #08507C; /* Dark Blue */
+    border-left-width: 3px;
+}
+
+ul.anchorstyle li a:hover {
+    color: #FEC150; /* Yellow */
+    background-color: #0F9CDA; /* Baby Blue */
+    border-left-style: solid;
+    border-left-color: #FEC150; /* Yellow */
+    border-left-width: 3px;
+}
+
 #aboutme {
-    float: center;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
+    float: left;
+    padding: 100px 0px 50px 0px;
+    width: 80%;
+    height: 500px;
+    text-align: left;
+    background-color: #E5E6E3; /* Bone White */
     color: #434343; /* Brown */
  }
 
