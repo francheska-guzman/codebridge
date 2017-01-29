@@ -328,31 +328,27 @@ img.git:hover {
     color: #434343; /* Brown */
 }
 
-#anchor {
+ul.anchorstyle {
     clear: both;
     float: left;
     padding: 100px 0px 50px 0px;
     width: 20%;
     height: 1100px;
-    text-align: left;
     background-color: #08507C; /* Dark Blue */
- }
-
-ul.anchorstyle {
     list-style-type: none; /* No bullets or numbers in the list. */
     background-color: #08507C; /* Dark Blue */
 }
 
 /* Style the links inside the list items. */
 ul.anchorstyle li a {
-    padding: 0px 0px 0px 20px;
+    padding: 10px 200px 10px 30px;
     display: inline-block;
     color: #FFFFFF; /* White */
     text-align: left;
     text-decoration: none;
     transition: 0.3s;
     font-family: "SemilightFont"; /* This is a custom font. */
-    font-size: 25px;
+    font-size: 26px;
     border-left-style: solid;
     border-left-color: #08507C; /* Dark Blue */
     border-left-width: 3px;
