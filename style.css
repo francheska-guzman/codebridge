@@ -335,7 +335,7 @@ img.git:hover {
     float: left;
     padding: 100px 0px 50px 0px;
     width: 20%;
-    height: 500px;
+    height: 900px;
     text-align: left;
     background-color: #08507C; /* Dark Blue */
  }
@@ -372,7 +372,7 @@ ul.anchorstyle li a:hover {
     float: left;
     padding: 100px 0px 50px 0px;
     width: 80%;
-    height: 500px;
+    height: 900px;
     text-align: left;
     background-color: #E5E6E3; /* Bone White */
     color: #434343; /* Brown */
