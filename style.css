@@ -257,7 +257,6 @@ iframe.youtube {
 }
 
 /* About GitHub and Git */
-
 #belowleft {
     clear: both;
     float: left;
@@ -313,22 +312,14 @@ img.git:hover {
     border-color: #F68833; /* Orange */
 }
 
-/* ABOUT */
+/* RESUME */
 
-#mission {
+#resume {
     float: center;
-    padding: 100px 150px 0px 150px;
+    padding: 100px 150px 100px 150px;
     text-align: center;
     color: #434343; /* Brown */
 }
-
-#vision {
-    float: center;
-    padding: 20px 150px 100px 150px;
-    text-align: center;
-    color: #434343; /* Brown */
-}
-
 
 #anchor {
     clear: both;
@@ -378,3 +369,18 @@ ul.anchorstyle li a:hover {
     color: #434343; /* Brown */
  }
 
+/* ABOUT */
+
+#mission {
+    float: center;
+    padding: 100px 150px 0px 150px;
+    text-align: center;
+    color: #434343; /* Brown */
+}
+
+#vision {
+    float: center;
+    padding: 20px 150px 100px 150px;
+    text-align: center;
+    color: #434343; /* Brown */
+}
