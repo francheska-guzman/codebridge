@@ -138,7 +138,7 @@ p {
 
 p.resume1 {
     padding: 5px 0px 0px 50px;
-    font-size: 24px;
+    font-size: 26px;
     font-family: "NormalFont20";
     font-weight: bold;
     color: #434343; /* Brown */
@@ -146,7 +146,7 @@ p.resume1 {
 
 p.resume2 {
     padding: 5px 0px 0px 50px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "NormalFont20";
     font-weight: bold;
     color: #434343; /* Brown */
@@ -154,7 +154,14 @@ p.resume2 {
 
 p.resume3 {
     padding: 5px 0px 0px 50px;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: "NormalFont20";
+    color: #434343; /* Brown */
+}
+
+p.resume4 {
+    padding: 5px 0px 0px 50px;
+    font-size: 18px;
     font-family: "NormalFont20";
     color: #434343; /* Brown */
 }
