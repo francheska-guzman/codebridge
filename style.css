@@ -384,9 +384,16 @@ img.git:hover {
 
 /* ABOUT */
 
-#mission {
+#about {
     float: center;
     padding: 100px 150px 0px 150px;
+    text-align: center;
+    color: #434343; /* Brown */
+}
+
+#mission {
+    float: center;
+    padding: 20px 150px 0px 150px;
     text-align: center;
     color: #434343; /* Brown */
 }
