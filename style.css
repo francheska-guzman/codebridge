@@ -136,6 +136,13 @@ p {
     font-family: "NormalFont20";
 }
 
+p.git {
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-family: "NormalFont20";
+    color: #434343; /* Brown */
+}
+
 p.resume1 {
     padding: 5px 0px 0px 50px;
     font-size: 26px;
@@ -196,11 +203,78 @@ ul.links {
 ul.list {
     display: block;
     list-style-type: disc;
-    padding: 5px 0px 0px 100px;
+    padding: 5px 300px 0px 100px;
     font-size: 20px;
     font-family: "NormalFont20";
     color: #434343; /* Brown */
 }
+
+ul.anchorstyle {
+    clear: both;
+    float: left;
+    padding: 50px 0px 50px 0px;
+    width: 20%;
+    height: 1125px;
+    background-color: #08507C; /* Dark Blue */
+    list-style-type: none; /* No bullets or numbers in the list. */
+    background-color: #08507C; /* Dark Blue */
+}
+
+/* Style the links inside the list items. */
+ul.anchorstyle li a {
+    padding: 10px 200px 10px 30px;
+    display: inline-block;
+    color: #FFFFFF; /* White */
+    text-align: left;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: "SemilightFont"; /* This is a custom font. */
+    font-size: 26px;
+    border-left-style: solid;
+    border-left-color: #08507C; /* Dark Blue */
+    border-left-width: 3px;
+}
+
+ul.anchorstyle li a:hover {
+    color: #FEC150; /* Yellow */
+    background-color: #0F9CDA; /* Baby Blue */
+    border-left-style: solid;
+    border-left-color: #FEC150; /* Yellow */
+    border-left-width: 3px;
+}
+
+iframe.youtube {
+    float: left;
+    margin: 0px 20px 0px 0px;
+    width: 750px;
+    height: 420px;
+}
+
+img.github {
+    padding: 60px 0px 20px 20px;
+    width: 120px;
+    height: 120px;
+}
+
+img.github:hover {
+    transition: 0.7s;
+    width: 140px;
+    height: 140px;
+}
+
+img.git {
+    margin: 20px 20px 20px 0px;
+    width: 120px;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FEC150; /* Yellow */
+}
+
+img.git:hover {
+    border-color: #F68833; /* Orange */
+}
+
 
 #header {
     float: center;
@@ -211,13 +285,6 @@ ul.list {
 }
 
 /* INDEX */
-
-iframe.youtube {
-    float: left;
-    margin: 0px 20px 0px 0px;
-    width: 750px;
-    height: 420px;
-}
 
 #main {
     float: center;
@@ -268,105 +335,48 @@ iframe.youtube {
     clear: both;
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 14%;
-    height: 190px;
+    width: 15%;
+    height: 250px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: center;
-
-}
-
-img.github {
-    padding: 20px 0px 20px 20px;
-    width: 120px;
-    height: 120px;
-}
-
-img.github:hover {
-    transition: 0.7s;
-    width: 140px;
-    height: 140px;
+    overflow: hidden;
 }
 
 #belowcenter {
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 74%;
-    height: 190px;
+    width: 51.666%;
+    height: 250px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: justify;
     color: #434343; /* Brown */
+    overflow: hidden;
 }
 
 #belowright {
     float: left;
     padding: 20px 0px 20px 0px;
-    width: 12%;
-    height: 190px;
+    width: 33.333%;
+    height: 250px;
     background-color: #DEEDF3; /* Light Blue */
     text-align: center;
-}
-
-img.git {
-    margin: 20px 20px 20px 0px;
-    width: 120px;
-    height: 150px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #FEC150; /* Yellow */
-}
-
-img.git:hover {
-    border-color: #F68833; /* Orange */
+    overflow: hidden;
 }
 
 /* RESUME */
 
-#resume {
+#summary {
     float: center;
     padding: 100px 150px 100px 150px;
     text-align: center;
     color: #434343; /* Brown */
 }
 
-ul.anchorstyle {
-    clear: both;
+#resume {
     float: left;
-    padding: 100px 0px 50px 0px;
-    width: 20%;
-    height: 1100px;
-    background-color: #08507C; /* Dark Blue */
-    list-style-type: none; /* No bullets or numbers in the list. */
-    background-color: #08507C; /* Dark Blue */
-}
-
-/* Style the links inside the list items. */
-ul.anchorstyle li a {
-    padding: 10px 200px 10px 30px;
-    display: inline-block;
-    color: #FFFFFF; /* White */
-    text-align: left;
-    text-decoration: none;
-    transition: 0.3s;
-    font-family: "SemilightFont"; /* This is a custom font. */
-    font-size: 26px;
-    border-left-style: solid;
-    border-left-color: #08507C; /* Dark Blue */
-    border-left-width: 3px;
-}
-
-ul.anchorstyle li a:hover {
-    color: #FEC150; /* Yellow */
-    background-color: #0F9CDA; /* Baby Blue */
-    border-left-style: solid;
-    border-left-color: #FEC150; /* Yellow */
-    border-left-width: 3px;
-}
-
-#aboutme {
-    float: left;
-    padding: 100px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
     width: 80%;
-    height: 1100px;
+    height: 1125px;
     text-align: left;
     background-color: #E5E6E3; /* Bone White */
     color: #434343; /* Brown */
