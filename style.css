@@ -137,7 +137,7 @@ p {
 }
 
 p.git {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
     font-size: 20px;
     font-family: "NormalFont20";
     color: #434343; /* Brown */
@@ -264,8 +264,8 @@ img.github:hover {
 
 img.git {
     margin: 20px 20px 20px 0px;
-    width: 120px;
-    height: 150px;
+    width: 100px;
+    height: 125px;
     border-style: solid;
     border-width: 2px;
     border-color: #FEC150; /* Yellow */
@@ -358,7 +358,7 @@ img.git:hover {
     padding: 20px 0px 20px 0px;
     width: 33.333%;
     height: 250px;
-    background-color: #DEEDF3; /* Light Blue */
+    background-color: #E5E6E3; /* Bone White */
     text-align: center;
     overflow: hidden;
 }
