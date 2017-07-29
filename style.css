@@ -404,3 +404,11 @@ img.git:hover {
     text-align: center;
     color: #434343; /* Brown */
 }
+
+/* FOOTER */
+
+#my-info {
+    padding: 40px 0; /* Padding the top. */
+    text-align: center;
+    color: #E5E6E3; /* Bone White */
+}
